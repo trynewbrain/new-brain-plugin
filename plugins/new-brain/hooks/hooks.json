@@ -1,5 +1,5 @@
 {
-  "description": "Session capture (T4): when a Claude Code session ends, save its decisions, status and lessons to the brain.",
+  "description": "Session capture (T4), off unless NEW_BRAIN_WRAP_UP=on: when a Claude Code session ends, save its decisions, status and lessons to the brain.",
   "hooks": {
     "SessionEnd": [
       {

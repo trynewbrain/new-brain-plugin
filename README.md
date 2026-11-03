@@ -11,13 +11,13 @@ claude plugin marketplace add trynewbrain/new-brain-plugin
 claude plugin install new-brain@new-brain
 ```
 
-Then follow the steps in [plugins/new-brain/README.md](plugins/new-brain/README.md): set your brain's link, run `/mcp` and sign in.
+Then run `/mcp` in Claude Code, pick `plugin:new-brain:brain` and sign in to New Brain. Everyone uses the same address; signing in picks your brain. More in [plugins/new-brain/README.md](plugins/new-brain/README.md).
 
 You need a New Brain account. New Brain is in early access: [trynewbrain.com](https://trynewbrain.com).
 
 ## Privacy
 
-The plugin sends New Brain what Claude saves or looks up for you, including a short summary of each Claude Code session when it ends (turn that off with `NEW_BRAIN_WRAP_UP=off`). It never reads or sends passwords, keys or settings. Privacy policy: https://trynewbrain.com/privacy
+The plugin sends New Brain only what Claude looks up or saves for you. Saving a summary when a Claude Code session ends is off unless you turn it on with `NEW_BRAIN_WRAP_UP=on`. During setup Claude asks what it may look at before it looks, and nothing is saved until you say OK. It never reads or sends passwords, keys or settings. Privacy policy: https://trynewbrain.com/privacy
 
 ## Licence
 

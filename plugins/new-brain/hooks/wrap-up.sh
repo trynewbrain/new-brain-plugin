@@ -1,9 +1,9 @@
 #!/bin/sh
 # SessionEnd hook. A finished session can't call tools any more, so this resumes it in a headless Claude in the
 # background and runs the wrap-up skill there, which saves what was decided with the brain's remember tool.
-# NEW_BRAIN_WRAP_UP=off turns it off. The headless run inherits NEW_BRAIN_WRAP_UP_ACTIVE, so its own
-# session end does not start another one.
-[ "${NEW_BRAIN_WRAP_UP:-on}" = off ] && exit 0
+# It is off unless the person turns it on with NEW_BRAIN_WRAP_UP=on (R180). The headless run inherits
+# NEW_BRAIN_WRAP_UP_ACTIVE, so its own session end does not start another one.
+[ "${NEW_BRAIN_WRAP_UP:-off}" = on ] || exit 0
 [ -n "$NEW_BRAIN_WRAP_UP_ACTIVE" ] && exit 0
 
 input=$(cat)

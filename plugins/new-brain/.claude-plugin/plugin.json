@@ -1,6 +1,6 @@
 {
   "name": "new-brain",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "One memory for all your work, shared by your AI tools. Set up New Brain from Claude, keep each project's memory current, and recall and save decisions, status and preferences as you work.",
   "author": {
     "name": "New Brain",
@@ -9,14 +9,6 @@
   "homepage": "https://trynewbrain.com",
   "privacyPolicyUrl": "https://trynewbrain.com/privacy",
   "keywords": ["memory", "mcp", "projects", "new-brain"],
-  "userConfig": {
-    "brain_url": {
-      "type": "string",
-      "title": "Brain link",
-      "description": "Your brain's link from New Brain: Settings → Connected tools (https://mcp.trynewbrain.com/b/<your-brain-id>).",
-      "required": true
-    }
-  },
   "license": "MIT",
   "repository": "https://github.com/trynewbrain/new-brain-plugin"
 }

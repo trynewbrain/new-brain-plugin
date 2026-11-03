@@ -15,7 +15,7 @@ New Brain files every memory under a project, and a memory saved without one is 
 
 ## At the start
 
-1. Call `catch_up` with `project` (and `since` if the user gave a time, such as "since Monday").
+1. Call `catch_up` with `project` (and `since` if the user gave a time, such as "since Monday"), before you answer about the project or plan next steps.
 2. Summarise in a few lines: where it stands, what changed and when, open questions, next steps. Use only what came back and name the source and date of each point.
 3. If the user asks about a detail it doesn't cover, call `recall` with their question and the same `project`.
 4. If nothing came back, say New Brain has nothing on it yet. Do not guess.
