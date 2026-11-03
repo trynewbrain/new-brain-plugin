@@ -1,0 +1,10 @@
+{
+  "description": "Session capture (T4): when a Claude Code session ends, save its decisions, status and lessons to the brain.",
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [{ "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/wrap-up.sh\"", "timeout": 10 }]
+      }
+    ]
+  }
+}

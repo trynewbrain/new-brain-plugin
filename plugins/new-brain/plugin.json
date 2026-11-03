@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "new-brain",
+  "version": "0.2.0",
+  "description": "One memory for all your work, shared by your AI tools. Set up New Brain, keep each project's memory current, and recall and save decisions, status and preferences as you work.",
+  "author": {
+    "name": "New Brain",
+    "url": "https://trynewbrain.com"
+  },
+  "homepage": "https://trynewbrain.com",
+  "keywords": [
+    "memory",
+    "mcp",
+    "projects",
+    "new-brain"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "New Brain",
+        "shortDescription": "Memory for all your work",
+        "longDescription": "New Brain keeps what you decide, where each project stands, your preferences and the lessons you learn, with the sources they came from, and shares them with every AI tool you use. Set it up from what this app already knows, catch up on a project before you start, and save new decisions as you make them. Things the AI guesses wait in your To check list first.",
+        "developerName": "New Brain",
+        "category": "Productivity",
+        "websiteURL": "https://trynewbrain.com",
+        "supportURL": "https://trynewbrain.com/contact",
+        "privacyPolicyURL": "https://trynewbrain.com/privacy",
+        "termsOfServiceURL": "https://trynewbrain.com/terms",
+        "defaultPrompt": [
+          "Set up New Brain for me",
+          "Catch me up on my latest project",
+          "What did we decide last week?"
+        ]
+      },
+      "onboardingSkill": "./skills/setup/SKILL.md"
+    }
+  },
+  "license": "MIT",
+  "repository": "https://github.com/trynewbrain/new-brain-plugin"
+}

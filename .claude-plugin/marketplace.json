@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "new-brain",
+  "description": "New Brain for Claude Code: one memory for all your work, shared by your AI tools.",
+  "owner": { "name": "New Brain", "url": "https://trynewbrain.com" },
+  "plugins": [
+    {
+      "name": "new-brain",
+      "description": "Set up New Brain, keep each project's memory current, and recall and save decisions, status and preferences as you work.",
+      "source": "./plugins/new-brain",
+      "category": "productivity"
+    }
+  ]
+}
