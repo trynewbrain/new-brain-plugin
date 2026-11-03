@@ -8,12 +8,7 @@
     "url": "https://trynewbrain.com"
   },
   "homepage": "https://trynewbrain.com",
-  "keywords": [
-    "memory",
-    "mcp",
-    "projects",
-    "new-brain"
-  ],
+  "keywords": ["memory", "mcp", "projects", "new-brain"],
   "extensions": {
     "com.openai": {
       "interface": {

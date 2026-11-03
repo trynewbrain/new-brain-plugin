@@ -8,12 +8,7 @@
   },
   "homepage": "https://trynewbrain.com",
   "privacyPolicyUrl": "https://trynewbrain.com/privacy",
-  "keywords": [
-    "memory",
-    "mcp",
-    "projects",
-    "new-brain"
-  ],
+  "keywords": ["memory", "mcp", "projects", "new-brain"],
   "userConfig": {
     "brain_url": {
       "type": "string",
