@@ -17,7 +17,7 @@ You need a New Brain account. New Brain is in early access: [trynewbrain.com](ht
 
 ## Privacy
 
-The plugin sends New Brain only what Claude looks up or saves for you. Saving a summary when a Claude Code session ends is off unless you turn it on with `NEW_BRAIN_WRAP_UP=on`. During setup Claude asks what it may look at before it looks, and nothing is saved until you say OK. It never reads or sends passwords, keys or settings. Privacy policy: https://trynewbrain.com/privacy
+The plugin sends New Brain only what Claude looks up or saves for you. It runs no code on your computer. During setup Claude asks what it may look at before it looks, and nothing is saved until you say OK. It never reads or sends passwords, keys or settings. Privacy policy: https://trynewbrain.com/privacy
 
 ## Licence
 

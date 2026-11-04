@@ -10,7 +10,6 @@ What it adds:
   - `/new-brain:projects` catches you up on a project when you start and keeps its decisions and status saved as you work.
   - `/new-brain:recall-and-remember` says when Claude reads from New Brain, when it saves, how it cites, and what it never saves.
   - `/new-brain:wrap-up` saves a session's decisions, status, preferences and lessons when you ask.
-- **Save at the end of a session (Claude Code, off unless you turn it on):** set `NEW_BRAIN_WRAP_UP=on` and, when a Claude Code session ends, a hook runs `wrap-up` on that session in the background. Its output goes to `$TMPDIR/new-brain-wrap-up.log`.
 
 Claude picks the skills up by itself when they fit; you can also type them.
 
