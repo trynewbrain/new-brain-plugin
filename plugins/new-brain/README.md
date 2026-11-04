@@ -1,6 +1,6 @@
-# New Brain for Claude
+# New Brain
 
-New Brain is one memory for all your work, shared by your AI tools. This plugin connects Claude to it: Claude Code, and Claude on the web and the desktop app.
+New Brain is one memory for all your work, shared by your AI tools. This plugin connects your AI tool to it: Claude (Claude Code, the web and the desktop app), ChatGPT and Codex. The steps below are for Claude Code.
 
 What it adds:
 
@@ -24,7 +24,7 @@ Then ask "what did we decide about pricing?" and Claude calls `recall`.
 
 ## What leaves your computer
 
-- Only what Claude sends to New Brain's tools: your question when it looks something up, and the sentence it saves when it remembers something. Nothing is sent in the background, except the end-of-session save when you turn it on.
+- Only what Claude sends to New Brain's tools: your question when it looks something up, and the sentence it saves when it remembers something. Nothing is sent in the background.
 - During setup, Claude first tells you what it would look at (folder names, READMEs and notes, recent commit messages, session titles) and waits until you say what it may use. It never opens passwords, keys or settings files, and nothing is saved until you say OK to the list.
 - Things Claude guesses rather than hears from you wait in your To check list in New Brain until you keep them.
 - You can see every connection, what it read and saved, and turn it off, in New Brain under Settings, AI tools.
